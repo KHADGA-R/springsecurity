@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/welcome")
     public String sayHello(){
-        return "Welcome to Spring Security w/o  jwt and Oauth2 implementation .";
+        return "Welcome to Spring Security with spring security .";
     }
 }
