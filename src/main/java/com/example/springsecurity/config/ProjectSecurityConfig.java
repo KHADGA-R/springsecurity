@@ -45,10 +45,13 @@ public class ProjectSecurityConfig {
     }
      */
 
+    /*
     @Bean
     public UserDetailsService userDetailsService(DataSource dataSource){
         return new JdbcUserDetailsManager(dataSource);
-    }
+    } */
+
+
 
     @Bean
     public PasswordEncoder passwordEncoder() {
